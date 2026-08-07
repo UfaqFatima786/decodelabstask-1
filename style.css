@@ -1,0 +1,630 @@
+.card img{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+.card-body img{
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+
+.card{
+    background-color:#112240;
+    border:none;
+    border-radius:15px;
+    color:white;
+}
+.milestones .col-lg-4{
+    margin-bottom: 25px;
+}
+.card img{
+    height: 200px;
+    object-fit: cover;
+}
+.card-img-top{
+    height: 200px;
+    object-fit: cover;
+}
+.card-img-top{
+    width: 100%;
+}
+.card-img-top{
+    height: 220px;
+    width: 100%;
+    object-fit: cover;
+}
+.vision-board{
+    padding: 80px 0;
+}
+
+.vision-board h2{
+    text-align: center;
+}
+
+.vision-text{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.vision-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+.vision-tile{
+    padding: 30px 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.vision-tile h3{
+    font-size: 20px;
+}
+/* ---------- GLOBAL ---------- */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins', sans-serif;
+    background:#faf9ff;
+    color:#222;
+}
+
+section{
+    padding:80px 0;
+}
+
+h1,h2,h3,h4{
+    font-weight:700;
+}
+
+p{
+    color:#555;
+    line-height:1.7;
+}
+
+
+/* ---------- NAVBAR ---------- */
+
+.navbar{
+    height:70px;
+    background:white;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+}
+
+
+/* ---------- HERO ---------- */
+
+#hero{
+    min-height:90vh;
+    display:flex;
+    align-items:center;
+    background:linear-gradient(135deg,#f8f5ff,#eaf7ff);
+    text-align:center;
+}
+
+#hero h1{
+    font-size:60px;
+    color:#111;
+}
+
+#hero p:first-of-type{
+    font-size:22px;
+    color:#6c63ff;
+    font-weight:600;
+}
+
+#hero button{
+    margin-top:20px;
+    padding:12px 30px;
+    border:none;
+    border-radius:30px;
+    background:#6c63ff;
+    color:white;
+    cursor:pointer;
+}
+
+
+/* ---------- JOURNEY ---------- */
+
+.the-journey-sofar{
+    text-align:center;
+}
+
+.the-journey-sofar h3{
+    font-size:35px;
+    margin-bottom:20px;
+}
+
+
+/* ---------- ALL CARDS ---------- */
+
+.card{
+    border:none;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 10px 30px rgba(0,0,0,0.08);
+    transition:.3s;
+    height:100%;
+    margin-bottom:25px;
+}
+
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 35px rgba(0,0,0,0.15);
+}
+
+
+.card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+
+.card-body{
+    padding:25px;
+}
+
+
+.card h3,
+.card h4{
+    color:#333;
+}
+
+
+
+/* ---------- CURRENTLY LEARNING ---------- */
+
+.currently-learning h3,
+.things-ive-built h2,
+.milestones h3,
+.vision-board h2,
+.future-letter h2,
+.beyond-the-code h2,
+.contacts h2{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+
+
+/* ---------- PROJECTS ---------- */
+
+.things-ive-built .card{
+    margin-bottom:30px;
+}
+
+
+.btn-primary{
+    background:#6c63ff;
+    border:none;
+}
+
+.btn-primary:hover{
+    background:#5548ff;
+}
+
+
+
+/* ---------- MILESTONES ---------- */
+
+.milestones{
+    background:#f7f7ff;
+}
+
+
+.milestones .card-img-top{
+    height:220px;
+    object-fit:contain;
+    background:white;
+}
+
+
+
+/* ---------- VISION BOARD ---------- */
+
+.vision-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+}
+
+
+.vision-tile{
+    background:white;
+    padding:30px 20px;
+    border-radius:25px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+
+.vision-tile:hover{
+    transform:scale(1.05);
+}
+
+
+.vision-tile h3{
+    font-size:20px;
+}
+
+
+
+/* ---------- FUTURE LETTER ---------- */
+
+.letter{
+    max-width:800px;
+    margin:auto;
+    background:#fffdf8;
+    padding:45px;
+    border-radius:25px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    font-size:18px;
+}
+
+
+
+/* ---------- BEYOND CODE ---------- */
+
+
+.interest-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+}
+
+
+.interest-tile{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+
+/* ---------- CONTACT ---------- */
+
+
+.contacts{
+    text-align:center;
+}
+
+
+.contact-links a{
+    display:inline-block;
+    margin:10px;
+    padding:12px 25px;
+    border-radius:30px;
+    background:#6c63ff;
+    color:white;
+    text-decoration:none;
+}
+
+
+
+/* ---------- FOOTER ---------- */
+
+
+.footer{
+    background:#111827;
+    color:white;
+    text-align:center;
+    padding:40px 0;
+}
+
+
+.footer p{
+    color:#ddd;
+}
+
+
+.footer a{
+    color:white;
+    margin:10px;
+}
+
+
+
+/* ---------- RESPONSIVE ---------- */
+
+
+@media(max-width:992px){
+
+    .vision-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .interest-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+}
+
+
+@media(max-width:576px){
+
+    #hero h1{
+        font-size:40px;
+    }
+
+
+    .vision-grid,
+    .interest-grid{
+        grid-template-columns:1fr;
+    }
+
+}
+img{
+    max-width:100%;
+    display:block;
+}
+.currently-learning .card img{
+    width:80px;
+    height:80px;
+    object-fit:contain;
+    margin:auto;
+}
+.things-ive-built .card-img-top{
+    height:250px;
+    object-fit:cover;
+}
+.interest-tile img{
+    height:180px;
+    width:100%;
+    object-fit:cover;
+    border-radius:20px;
+}
+.vision-tile img{
+    width:70px;
+    height:70px;
+    object-fit:contain;
+}
+.milestones .card-img-top{
+    height:220px;
+    object-fit:contain;
+    background:white;
+}
+.row{
+    row-gap:30px;
+}
+.things-ive-built .row{
+    row-gap:30px;
+}
+.currently-learning .row{
+    row-gap:30px;
+}
+.card{
+    margin-bottom:25px;
+}
+.navbar{
+    background:white;
+    padding:15px 0;
+    position:sticky;
+    top:0;
+    z-index:1000;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+
+.nav-link{
+    margin-left:20px;
+    color:#333;
+}
+
+
+.nav-link:hover{
+    color:#6c63ff;
+}
+/* ---------- SMOOTH SCROLL ---------- */
+
+html{
+    scroll-behavior:smooth;
+}
+
+
+/* ---------- CARD HOVER EFFECT ---------- */
+
+.card{
+    transition:all 0.35s ease;
+    cursor:pointer;
+}
+
+
+.card:hover{
+    transform:translateY(-12px);
+    box-shadow:0 20px 40px rgba(108,99,255,0.18);
+}
+
+
+/* image zoom inside cards */
+
+.card img{
+    transition:transform 0.4s ease;
+}
+
+
+.card:hover img{
+    transform:scale(1.05);
+}
+
+
+
+/* ---------- BUTTON EFFECTS ---------- */
+
+.btn{
+    transition:all 0.3s ease;
+}
+
+
+.btn-primary{
+    position:relative;
+    overflow:hidden;
+}
+
+
+.btn-primary:hover{
+    transform:translateY(-3px);
+    box-shadow:0 10px 25px rgba(108,99,255,.4);
+}
+
+
+.btn-outline-primary:hover{
+    transform:translateY(-3px);
+}
+
+
+
+/* ---------- HERO BUTTON ---------- */
+
+
+#hero button{
+    transition:.3s;
+}
+
+
+#hero button:hover{
+    transform:scale(1.08);
+    box-shadow:0 10px 25px rgba(108,99,255,.4);
+}
+
+
+
+/* ---------- NAVBAR ---------- */
+
+.nav-link{
+    position:relative;
+    transition:.3s;
+}
+
+
+.nav-link::after{
+    content:"";
+    position:absolute;
+    width:0;
+    height:2px;
+    bottom:0;
+    left:0;
+    background:#6c63ff;
+    transition:.3s;
+}
+
+
+.nav-link:hover::after{
+    width:100%;
+}
+
+
+.nav-link:hover{
+    color:#6c63ff;
+}
+
+
+
+/* ---------- VISION TILES ---------- */
+
+
+.vision-tile{
+    transition:.35s ease;
+}
+
+
+.vision-tile:hover{
+    transform:translateY(-10px) rotate(1deg);
+    box-shadow:0 20px 35px rgba(0,0,0,.15);
+}
+
+
+
+/* ---------- BEYOND CODE TILES ---------- */
+
+
+.interest-tile{
+    transition:.35s;
+}
+
+
+.interest-tile:hover{
+    transform:translateY(-8px);
+    background:#f8f6ff;
+}
+
+
+
+/* ---------- FUTURE LETTER ---------- */
+
+
+.letter{
+    transition:.3s;
+}
+
+
+.letter:hover{
+    transform:translateY(-5px);
+    box-shadow:0 20px 40px rgba(0,0,0,.12);
+}
+
+
+
+/* ---------- CONTACT BUTTONS ---------- */
+
+
+.contact-links a{
+    transition:.3s;
+}
+
+
+.contact-links a:hover{
+    transform:translateY(-5px);
+    box-shadow:0 10px 25px rgba(108,99,255,.4);
+}
+
+
+
+/* ---------- SECTION HEADINGS ---------- */
+
+
+h2,h3{
+    transition:.3s;
+}
+
+
+h2:hover,
+h3:hover{
+    color:#6c63ff;
+}
+
+
+
+/* ---------- FOOTER LINKS ---------- */
+
+
+.footer a{
+    transition:.3s;
+}
+
+
+.footer a:hover{
+    color:#a8a2ff;
+}
+
+
+
+/* ---------- IMAGE CURSOR ---------- */
+
+
+img{
+    transition:.3s;
+}
+html{
+    scroll-behavior:smooth;
+}
